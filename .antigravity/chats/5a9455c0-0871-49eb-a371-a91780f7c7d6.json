@@ -3,7 +3,7 @@
   "name": "/plugin marketplace add durmazoguzhan/turkish-humanify /plugin install",
   "createdAt": "2026-11-04T13:07:45.695Z",
   "filename": "5a9455c0-0871-49eb-a371-a91780f7c7d6.json",
-  "geminiStarted": false,
+  "geminiStarted": true,
   "messages": [
     {
       "id": "a078ff6f-2b51-47a3-b085-3c5d979c11d1",
@@ -15,6 +15,18 @@
       "parent_message_id": null,
       "created_at": "2026-11-04T13:08:42.222Z",
       "sender": "ios",
+      "is_cancelled": false
+    },
+    {
+      "id": "594ba456-740c-4d70-84e1-3007969e9c92",
+      "role": "agent",
+      "content": "I have installed and enabled the **`turkish-humanify`** plugin (`v0.4.8` by Oguzhan Durmaz) from `durmazoguzhan/turkish-humanify`:\n\n- **Global plugin installation**: [`/home/agent/.gemini/config/plugins/turkish-humanify/plugin.json`](file:///home/agent/.gemini/config/plugins/turkish-humanify/plugin.json) (installed via `agy plugin install`)\n- **Workspace plugin bundle**: [`.agents/plugins/turkish-humanify/plugin.json`](file:///home/agent/workspace/.agents/plugins/turkish-humanify/plugin.json)\n- **Bundled skill**: [`SKILL.md`](file:///home/agent/workspace/.agents/plugins/turkish-humanify/skills/turkish-humanify/SKILL.md)\n\nYou can now share any Turkish text to rewrite/repair, or give me a topic/brief to write in natural Turkish.",
+      "status": "completed",
+      "model": "gemini-3.8-flash-high",
+      "client_type": "gemini-bridge",
+      "parent_message_id": "a078ff6f-2b51-47a3-b085-3c5d979c11d1",
+      "created_at": "2026-11-04T13:10:36.088Z",
+      "sender": "macOS",
       "is_cancelled": false
     }
   ]
