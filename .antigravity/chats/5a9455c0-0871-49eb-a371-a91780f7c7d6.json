@@ -4,5 +4,18 @@
   "createdAt": "2026-11-04T13:07:45.695Z",
   "filename": "5a9455c0-0871-49eb-a371-a91780f7c7d6.json",
   "geminiStarted": false,
-  "messages": []
+  "messages": [
+    {
+      "id": "a078ff6f-2b51-47a3-b085-3c5d979c11d1",
+      "role": "user",
+      "content": "/plugin marketplace add durmazoguzhan/turkish-humanify\n/plugin install turkish-humanify@durmazoguzhan",
+      "status": "pending",
+      "model": "gemini-3.8-flash-high",
+      "client_type": "gemini-bridge",
+      "parent_message_id": null,
+      "created_at": "2026-11-04T13:08:42.222Z",
+      "sender": "ios",
+      "is_cancelled": false
+    }
+  ]
 }
